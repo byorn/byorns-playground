@@ -1,7 +1,7 @@
 // @ts-ignore
 import jobData from 'data/jobs.json';
 import { GetStaticProps } from 'next'
-import JobDataType from "./types/JobDataType";
+import JobDataType from "../../types/JobDataType";
 import IndexView from "../../views/IndexView";
 
 
