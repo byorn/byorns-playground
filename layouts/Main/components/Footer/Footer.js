@@ -31,7 +31,7 @@ const Footer = () => {
               component={'img'}
               src={
                 mode === 'light'
-                  ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
+                  ? '/byorns-playground-logo.png'
                   : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
               }
               height={1}
@@ -62,16 +62,7 @@ const Footer = () => {
               </Link>
             </Box>
             <Box marginTop={1}>
-              <Button
-                variant="outlined"
-                color="primary"
-                component="a"
-                target="blank"
-                href="https://mui.com/store/items/the-front-landing-page/"
-                size="small"
-              >
-                Purchase now
-              </Button>
+
             </Box>
           </Box>
         </Box>
@@ -83,7 +74,7 @@ const Footer = () => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; theFront. 2021, Maccarian. All rights reserved
+          &copy; byorns-playground.com. 2023  All rights reserved
         </Typography>
         <Typography
           align={'center'}

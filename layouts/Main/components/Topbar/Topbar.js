@@ -37,8 +37,8 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
           component={'img'}
           src={
             mode === 'light' && !colorInvert
-              ? '/logo.png'
-              : '/logo.png'
+              ? '/byorns-playground-logo.png'
+              : '/byorns-playground-logo.png'
           }
           height={1}
           width={1}

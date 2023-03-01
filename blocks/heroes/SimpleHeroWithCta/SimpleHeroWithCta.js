@@ -66,17 +66,7 @@ const Hero = () => {
           alignItems={{ xs: 'stretched', sm: 'center' }}
           justifyContent={'center'}
         >
-          <Button
-            component={'a'}
-            variant="contained"
-            color="primary"
-            size="large"
-            fullWidth={isMd ? false : true}
-            href={'https://mui.com/store/items/the-front-landing-page/'}
-            target={'_blank'}
-          >
-            Purchase now
-          </Button>
+
           <Box
             marginTop={{ xs: 2, sm: 0 }}
             marginLeft={{ sm: 2 }}

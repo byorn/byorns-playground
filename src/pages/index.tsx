@@ -18,7 +18,10 @@ export default function Home() {
                        alt={'myimage'}/>
                   <h3>Mar 01 - 2023 </h3> I have been keen on researching on NextJS 13, and deploying it to AWS Amplify.
                         I wanted to start by building a clone of of Airtasker.com. <br/>
-                       <Link href={'/front-page'}>Click here</Link> to find a WIP of that page.
+                       <Link href={'/front-page'}>Click here</Link> to find a WIP of that page. <br/>
+                  I also enjoy solving alogorthms and datastructure challenges.
+                  Heres a list of <Link href={'/dsa'}> most popular challenges .</Link> I was able to solve one medium difficulty challenge from this list.
+
               </Container>
       </Box>
   )

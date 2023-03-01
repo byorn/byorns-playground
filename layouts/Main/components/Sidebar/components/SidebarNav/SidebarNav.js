@@ -33,8 +33,8 @@ const SidebarNav = ({ pages }) => {
             component={'img'}
             src={
               mode === 'light'
-                ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+                ? '/byorns-playground-logo.png'
+                : '/byorns-playground-logo.png'
             }
             height={1}
             width={1}
@@ -72,17 +72,7 @@ const SidebarNav = ({ pages }) => {
           </Button>
         </Box>
         <Box marginTop={1}>
-          <Button
-            size={'large'}
-            variant="contained"
-            color="primary"
-            fullWidth
-            component="a"
-            target="blank"
-            href="https://mui.com/store/items/the-front-landing-page/"
-          >
-            Purchase now
-          </Button>
+
         </Box>
       </Box>
     </Box>

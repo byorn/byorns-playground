@@ -98,7 +98,7 @@ const Footer = () => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; theFront. 2021, Maccarian. All rights reserved
+          &copy; byorns-playground. 2021,  All rights reserved
         </Typography>
         <Typography
           align={'center'}
@@ -106,10 +106,7 @@ const Footer = () => {
           color="text.secondary"
           component={'p'}
         >
-          When you visit or interact with our sites, services or tools, we or
-          our authorised service providers may use cookies for storing
-          information to help provide you with a better, faster and safer
-          experience and for marketing purposes.
+
         </Typography>
       </Grid>
     </Grid>

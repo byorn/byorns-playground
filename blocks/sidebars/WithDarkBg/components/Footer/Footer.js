@@ -11,7 +11,7 @@ const Footer = () => {
         color="text.secondary"
         gutterBottom
       >
-        &copy; theFront. 2021, Maccarian. All rights reserved
+        &copy; byorns-playground. 2021, All rights reserved
       </Typography>
       <Typography
         align={'center'}
