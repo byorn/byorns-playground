@@ -7,7 +7,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 import { NavItem } from './components';
 
-const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
+const Topbar = ({ onSidebarOpen, pages, colorInvert = false, hideMenu }) => {
   const theme = useTheme();
   const { mode } = theme.palette;
   const {
@@ -43,7 +43,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
           height={1}
           width={1}
         />
-      </Box>
+      </Box>{ !hideMenu && (
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
         <Box>
           <Button variant="contained">Post a task</Button>
@@ -52,6 +52,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         <Button variant="text">Browse tasks</Button>
         </Box>
       </Box>
+        )}
       <Box sx={{ display: { xs: 'block', md: 'none' } }} alignItems={'center'}>
         <Button
           onClick={() => onSidebarOpen()}
@@ -71,10 +72,5 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
   );
 };
 
-Topbar.propTypes = {
-  onSidebarOpen: PropTypes.func,
-  pages: PropTypes.object,
-  colorInvert: PropTypes.bool,
-};
 
 export default Topbar;

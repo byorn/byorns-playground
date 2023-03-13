@@ -14,7 +14,7 @@ import pages from '../navigation';
 
 
 // @ts-ignore
-const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
+const Main = ({ children, hideMenu = false, colorInvert = false, bgcolor = 'transparent' }) => {
   const theme = useTheme();
   const isMd = useMediaQuery(theme.breakpoints.up('md'), {
     defaultMatches: true,
@@ -44,28 +44,31 @@ const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
 
         </Container>
       </Box>
-      <AppBar
-        position={'sticky'}
-        sx={{
-          top: 0,
-          backgroundColor: trigger ? theme.palette.background.paper : bgcolor,
-        }}
-        elevation={trigger ? 1 : 0}
-      >
-        <Container paddingY={1}>
-          <Topbar
-            onSidebarOpen={handleSidebarOpen}
-            pages={pages}
-            colorInvert={trigger ? false : colorInvert}
-          />
-        </Container>
-      </AppBar>
-      <Sidebar
-        onClose={handleSidebarClose}
-        open={open}
-        variant="temporary"
-        pages={pages}
-      />
+
+              <AppBar
+                position={'sticky'}
+                sx={{
+                  top: 0,
+                  backgroundColor: trigger ? theme.palette.background.paper : bgcolor,
+                }}
+                elevation={trigger ? 1 : 0}
+              >
+                <Container paddingY={1}>
+                  <Topbar
+                    onSidebarOpen={handleSidebarOpen}
+                    pages={pages}
+                    colorInvert={trigger ? false : colorInvert}
+                    hideMenu={hideMenu}
+                  />
+                </Container>
+              </AppBar>
+              <Sidebar
+                onClose={handleSidebarClose}
+                open={open}
+                variant="temporary"
+                pages={pages}
+              />
+
       <main>
         {children}
         <Divider />
