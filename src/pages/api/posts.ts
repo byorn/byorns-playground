@@ -12,7 +12,7 @@ export default async function handler(
 
     switch (method) {
         case "POST": {
-            const {title, content} = req.body;
+            const {title, content} = JSON.parse(req.body);
             const post: Prisma.PostCreateInput = await prisma.post.create({
                 data: {
                     title,
