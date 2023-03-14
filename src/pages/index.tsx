@@ -13,7 +13,8 @@ export default function Home() {
                        alt={'myimage'}/>
 
                   <h3> Mar 13 - 2023 </h3> Experimenting on an <Link href={'/prisma'}>ORM framework, PRISMA. </Link>
-                  click <Link href={'/prisma'}> here </Link> for a demo of persisting data via PRISMA apis to a AWS RDS remote db.
+                  click <Link href={'/prisma'}> here </Link> to see CRUD operations using PRISMA.
+                  An AWS RDS DB was setup for persistence.
                   <h3>Mar 01 - 2023 </h3> This site is built using NextJS 13, and is deployed  to AWS Amplify.
                   Experimented on <Link href={'/front-page'}> Material UI components </Link>. Click  <Link href={'/front-page'}>here</Link> to find a initial
                   mock up of a page with a header and logo, and side menu that fits for mobile devices as well.
