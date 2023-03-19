@@ -6,17 +6,21 @@ import * as React from "react";
 
 export type PrismaPost = {
     title: string,
-    content?: string | null
+    content?: string | null,
+    updatedAt: Date
 }
-const PrismaPost = ( {title, content }:PrismaPost):JSX.Element => {
+const PrismaPost = ( {title, content, updatedAt }:PrismaPost):JSX.Element => {
     return <Card sx={{ maxWidth: 345, marginBottom: 1 }}>
         <CardActionArea>
             <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography gutterBottom variant="h4" component="div">
                     { title }
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography paddingTop={3} variant="body2" color="text.secondary">
                     {content}
+                </Typography>
+                <Typography paddingTop={7} sx={{ fontSize: 9 }} color="text.secondary" gutterBottom>
+                    <>Updated At: { updatedAt }</>
                 </Typography>
             </CardContent>
         </CardActionArea>

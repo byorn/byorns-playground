@@ -31,7 +31,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false, hideMenu }) => {
         component="a"
         href="/"
         title="theFront"
-        width={{ xs: 100, md: 220 }}
+        width={{ xs: 100, md: 230 }}
       >
         <Box
           component={'img'}
@@ -41,7 +41,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false, hideMenu }) => {
               : '/byorns-playground-logo.png'
           }
           height={1}
-          width={1}
+          width={10}
         />
       </Box>{ !hideMenu && (
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
