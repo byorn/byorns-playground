@@ -24,7 +24,7 @@ export default function Home({ }: Props) {
               <h3>Array</h3><br/>
 
            <ul>
-                  <li> - Two Sum - https://leetcode.com/problems/two-sum/ </li>
+                  <li> - Two Sum - https://leetcode.com/problems/two-sum/</li>
 
                   <li> - Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ </li>
                   <li> - Contains Duplicate - https://leetcode.com/problems/contains-duplicate/ </li>
@@ -91,7 +91,7 @@ export default function Home({ }: Props) {
 
            <h3>Linked List</h3><br/>
            <ul>
-               <li> - Add Two Numbers - https://leetcode.com/problems/add-two-numbers/ - <b>solved!!!</b> </li>
+               <li> - Add Two Numbers - https://leetcode.com/problems/add-two-numbers/ </li>
            <li>- Reverse a Linked List - https://leetcode.com/problems/reverse-linked-list/ </li>
            <li> - Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle/ </li>
            <li> - Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists/ </li>
