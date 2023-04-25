@@ -2,7 +2,31 @@
   padding: 0 2rem;
 }
 
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.largeColumn {
+  flex-basis: 50%;
+
+
+}
+.eventsMenuColumn {
+  padding-top: 1%;
+  padding-left: 20%;
+  flex-basis: 15%;
+}
+.abountMenuColumn {
+  padding-top: 1%;
+  padding-left: 3%;
+  flex-basis: 15%;
+}
+
+.linkSelected{
+  color: #0070f3;
+  font-size: larger;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
