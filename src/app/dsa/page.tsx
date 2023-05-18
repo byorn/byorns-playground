@@ -1,17 +1,9 @@
-// @ts-ignore
-import jobData from 'data/jobs.json';
-import { GetStaticProps } from 'next'
 import Image from "next/image";
 import * as React from "react";
 import Link from "next/link";
 
 interface Props {
 
-}
-
-export const getStaticProps: GetStaticProps<Props> = async () => {
-
-    return { props: {  } }
 }
 
 

@@ -91,11 +91,11 @@ const pages = {
       href: '/hire-us',
     },
     {
-      title: 'About: Startup',
+      title: 'Page: Startup',
       href: '/about-side-cover',
     },
     {
-      title: 'About',
+      title: 'Page',
       href: '/about',
     },
     {
