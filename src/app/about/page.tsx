@@ -28,7 +28,7 @@ export default function Page() {
                     <br/><br/>
                     Have experience with various AWS services and K8s clusters and have exposure working with HELM charts and docker containers.
                     <br/><br/>
-                    For the most of my career I've always remained an individual contributor but I have experience leading projects and guiding and mentoring smaller teams.
+                    For the most of my career I&apos;ve always remained an individual contributor but I have experience leading projects and guiding and mentoring smaller teams.
 
                 </h4>
 
