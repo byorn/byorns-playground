@@ -16,8 +16,14 @@ export default function Page() {
 
                     <br/><br/>
                     I learnt how to use Python for Linear Regression models, and Classification Models <br/><br/>
-                    Hope to include my github project about this <br/><br/>
+                    Hope to include my github project about this very soon !!!<br/><br/>
                     My certificate can be found <Link className={'text-blue-600 visited:text-purple-600'} href={'https://coursera.org/share/32651e47da1353d2a0fdc5fe23c52cee'}>here</Link>.
+                    <Image
+                        src="https://byorns-playground.s3.ap-southeast-2.amazonaws.com/CourseraCert.png"
+                        width={500}
+                        height={500}
+                        alt="Picture of the author"
+                    />
 
                     <br/><br/>
                     I still have more to learn here, and doing this as a hobby.*

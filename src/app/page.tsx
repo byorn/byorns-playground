@@ -32,6 +32,30 @@ export default function Home() {
 
               <section className="w-full md:w-2/3 flex flex-col items-center px-3">
 
+
+                  <article className="flex flex-col shadow my-4">
+
+                      <a href="#" className="hover:opacity-75">
+                          <img src="https://source.unsplash.com/collection/1346951/1000x500?sig=3"/>
+                      </a>
+                      <div className="bg-white flex flex-col justify-start p-6">
+                          <a href="/back-end" className="text-blue-700 text-sm font-bold uppercase pb-4">Back End</a>
+                          <a href="#" className="text-3xl font-bold hover:text-gray-700 pb-4">I built a custom web server in Rust ! </a>
+                          <p className="text-sm pb-3">
+                              By <a href="#" className="font-semibold hover:text-gray-800">Byorn de Silva</a>, Published on
+                              Aug 15th, 2023
+                          </p>
+                          <a href="#" className="pb-6"> I was keen on learning Rust, so I bought a tutorial from udemy and started building a webserver
+                              in Rust.
+                              </a>
+
+                              <a href="/back-end/rust" className="uppercase text-gray-800 hover:text-black">Continue Reading <i
+                                  className="fas fa-arrow-right"></i></a>
+
+
+                      </div>
+                  </article>
+
                  <article className="flex flex-col shadow my-4">
 
                      <a href="#" className="hover:opacity-75">
@@ -90,10 +114,19 @@ export default function Home() {
 
                  <div className="w-full bg-white shadow flex flex-col my-4 p-6">
                      <p className="text-xl font-semibold pb-5">About Me</p>
+
+                     <Image
+                         src="https://byorns-playground.s3.ap-southeast-2.amazonaws.com/profile-pic.jpeg"
+                         width={300}
+                         height={100}
+                         alt="Picture of the author"
+                     />
                      <p className="pb-2">The best way to learn new tech is by learning the fundamentals and then practically building things. Being able to teach others is also a great way to solidify your understanding on things.
                         This is why I built this site in the form of a CMS. It is mainly for me to experiment on NextJS, and AWS Amplify.
                         More content coming soon ..!
                      </p>
+
+
                      <a href="/about"
                         className="w-full bg-blue-800 text-white font-bold text-sm uppercase rounded hover:bg-blue-700 flex items-center justify-center px-2 py-3 mt-4">
                          Get to know me
