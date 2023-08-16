@@ -40,7 +40,7 @@ export default function Home() {
                       </a>
                       <div className="bg-white flex flex-col justify-start p-6">
                           <a href="/back-end" className="text-blue-700 text-sm font-bold uppercase pb-4">Back End</a>
-                          <a href="#" className="text-3xl font-bold hover:text-gray-700 pb-4">I built a custom web server in Rust ! </a>
+                          <a href="#" className="text-3xl font-bold hover:text-gray-700 pb-4">I built a web server in Rust ! </a>
                           <p className="text-sm pb-3">
                               By <a href="#" className="font-semibold hover:text-gray-800">Byorn de Silva</a>, Published on
                               Aug 15th, 2023
