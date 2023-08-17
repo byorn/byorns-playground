@@ -115,7 +115,7 @@ export default function Home() {
                  <div className="w-full bg-white shadow flex flex-col my-4 p-6">
                      <p className="text-xl font-semibold pb-5">About Me</p>
 
-                     <Image
+                     <img
                          src="https://byorns-playground.s3.ap-southeast-2.amazonaws.com/profile-pic.jpeg"
                          width={300}
                          height={100}
