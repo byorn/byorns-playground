@@ -10,7 +10,7 @@ const nextConfig = {
         pathname: '/byorns-playground/**',
       },
     ],
-    domains: ['byorns-playground.s3.ap-southeast-2.amazonaws.com']
+    domains: ['byorns-playground.com','byorns-playground.s3.ap-southeast-2.amazonaws.com']
   }
 }
 
