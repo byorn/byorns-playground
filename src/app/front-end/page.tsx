@@ -13,15 +13,20 @@ export default function Page() {
                 <br/>
 
                 <h4>
-                    Front End related tech .... Still a work in progress ...
+                    This is still a WIP.
 
                     <br/><br/>
-                    Hope to have some articles on following very soon ..
+
                     <br/><br/>
                     <ul className="list-disc">
-                        <li> Whats new in React 18 </li>
-                        <li> Tailwind CSS </li>
-                        <li> Building micro front ends - ASTRO ? React ? </li>
+
+                        <li> This site was built with NextJS 14, and AWS Amplify</li>
+                        <li> Contributing to open source NextJS/React CMS project : Outstatic</li>
+                        <li> My most memorable ReactJS project was to build a MS Teams / Zoom like video meeting calls
+                            web app using AWS Chimes
+                        </li>
+                        <li> I have build various form components and input validations using Formik and ReactJS with Material UI</li>
+                        <li> My most recent project in React was to build a document uploading UI component which has features to upload multiple documents simultaneously</li>
                     </ul>
                 </h4>
 

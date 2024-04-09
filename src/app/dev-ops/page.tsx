@@ -11,10 +11,9 @@ export default function Page() {
             <section className="w-full md:w-2/3 flex flex-col items-center px-3">
 
                 <h4>
-                    Still a work in progress ...
 
                     <br/><br/>
-                    Hope to include my github project very soon on ...
+                    I recently finished my CKAD certification. I am now Certified Kubernetes Application Developer from The Linux Foundataion.
                     <ul>
                         <li> Using AWS CDK to build LAMDA and S3 environments </li>
                         <li> Automating with AWS Code pipeline </li>

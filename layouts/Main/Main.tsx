@@ -40,7 +40,8 @@ const Main = ({ children, hideMenu = false, colorInvert = false, bgcolor = 'tran
   return (
     <Box>
       <Box bgcolor={bgcolor} position={'relative'} zIndex={theme.zIndex.appBar}>
-        <Container paddingTop={'8px !important'} paddingBottom={'0 !important'}>
+          {/* eslint-disable-next-line react/no-children-prop */}
+        <Container paddingTop={'8px !important'} paddingBottom={'0 !important'} children={undefined}>
 
         </Container>
       </Box>

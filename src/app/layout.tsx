@@ -2,6 +2,7 @@ import './globals.css'
 import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import MyImage  from '../../public/byorns-playground-logo.png'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export const metadata = {
@@ -74,7 +75,7 @@ export default function RootLayout({
       <header className="w-full container mx-auto">
         <div className="flex flex-col items-center py-12">
           <a className="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl" href="/">
-            <Image src={"/byorns-playground-logo.png"}  width={400} height={100}
+            <Image src={MyImage}  width={400} height={100}
                    alt={'myimage'} className={'largeColumn'}/>
           </a>
         </div>
