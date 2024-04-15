@@ -17,12 +17,16 @@ export default function Page() {
 
                     Fast forward to the present, my focus has shifted towards a dynamic blend of programming languages. Javascript/Typescript, Java, and React have become my mainstays, complemented by a myriad of technology stacks.
 
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Currently, I'm engaged in upskilling endeavors, venturing into the realms of GOLANG and RUST to broaden my expertise.
 
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Over the years, I've honed my craft, crafting an array of front-end components using React and Typescript, while also architecting robust API endpoints across diverse business domains. My toolkit spans Java/Spring and Node/Express, allowing me to tackle challenges with versatility and finesse.
 
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Beyond development, I've delved into the realm of automation, orchestrating DevOps pipelines with Jenkins, Bamboo, and exploring emerging tools like Terraform and AWS CDK. My journey with AWS services and K8s clusters has provided invaluable insights, augmented by hands-on experience with HELM charts and Docker containers.
 
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     Throughout my career, I've navigated the landscape as both an individual contributor and a leader, steering projects to success and nurturing smaller teams through mentorship and guidance.
                 </p>
 
