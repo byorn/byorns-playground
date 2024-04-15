@@ -11,6 +11,7 @@ export default function Page() {
             <section className="w-full md:w-2/3 flex flex-col items-center justify-center">
 
                 <p className="leading-relaxed">
+                    {/* eslint-disable-next-line react/no-unescaped-entities */}
                     I embarked on my journey with computers back in 1985, diving into the world of technology on an 8086 IBM XT. It was here that I cut my teeth on programming, starting with languages like Basic and DBASE 3+. Yes, it's fair to say I've been around the block a few times!
 
                     Transitioning to the professional realm, my career as a Software Engineer officially began in 2002. My inaugural project involved crafting an HRM and Payroll system using VB6, marking the start of my voyage into the realms of Java 1.2.
