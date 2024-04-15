@@ -14,7 +14,7 @@ export default function Home() {
 
                 <article className="flex flex-col shadow max-w-full">
 
-                    <div className="bg-white flex flex-col justify-start  mx-auto max-w-full px-12">
+                    <div className="bg-white flex flex-col justify-start  mx-auto max-w-full py-6 px-12">
                         <a href="https://cms.byorns-playground.com"
                            className="text-blue-700 text-sm font-bold uppercase pb-4">
                             NextJS 14</a>
@@ -46,12 +46,8 @@ export default function Home() {
                          height={100}
                          alt="Picture of the author"
                      />
-                     <p className="pb-2">The best way to learn new tech is by learning the fundamentals and then
-                         practically building things. Being able to teach others is also a great way to solidify your
-                         understanding on things.
-                         This is why I built this site in the form of a CMS. It is mainly for me to experiment on
-                         NextJS, and AWS Amplify.
-                         More content coming soon ..!
+                     <p className="pb-2">
+                         Welcome to my blog! Here, I delve into the world of Next.js and Tailwind CSS, experimenting and pushing the boundaries of web development. Through this platform, I showcase my project portfolio, demonstrating my skills and creativity in building dynamic and engaging web experiences
                      </p>
 
 
