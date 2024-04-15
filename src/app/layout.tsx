@@ -55,13 +55,16 @@ export default function RootLayout({
 
           <nav>
             <ul className="flex items-center justify-between font-bold text-sm text-white uppercase no-underline">
-              <li> <Link className="hover:text-gray-200 hover:underline px-4" href={'/'}>Home</Link></li>
-              <li> <Link className="hover:text-gray-200 hover:underline px-4" href={'/about'}>About</Link></li>
+              <li><Link className="hover:text-gray-200 hover:underline px-4" href={'/'}>Home</Link></li>
+              <li><Link className="hover:text-gray-200 hover:underline px-4" href={'/about'}>About</Link></li>
+              <li><Link className="hover:text-gray-200 hover:underline px-4"
+                        href={'https://cms.byorns-playground.com/'}>Blog</Link></li>
+
             </ul>
           </nav>
 
           <div className="flex items-center text-lg no-underline text-white pr-6">
-            <a className="pl-6" href="https://github.com/byorn">
+          <a className="pl-6" href="https://github.com/byorn">
               <FontAwesomeIcon icon={faGithub} className="text-white-800 w-8 h-8"/>
             </a>
             <a className="pl-6" href="https://au.linkedin.com/in/byorndesilva">
@@ -73,7 +76,7 @@ export default function RootLayout({
       </nav>
 
       <header className="w-full container mx-auto">
-        <div className="flex flex-col items-center py-12">
+        <div className="flex flex-col items-center py-6">
           <a className="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl" href="/">
             <Image src={MyImage}  width={400} height={100}
                    alt={'myimage'} className={'largeColumn'}/>
