@@ -28,7 +28,7 @@ export default function Home() {
                         Full Stack Snr/Lead Engineer with commercial experience building projects using React/Typescript
                         on the front end. <br/><br/>
                         Most of my back end experience is Java/Springboot, and have some experience building Rest and
-                        GraphQL API's using Node/Express/NextJS. <br/><br/>
+                        GraphQL APIs using Node/Express/NextJS. <br/><br/>
 
                         I also have exposure to automating the devops pipelines to build cloud native software utilizing
                         Kubernetes/Docker and integrating with AWS services.<br/><br/>
