@@ -56,7 +56,6 @@ export default function RootLayout({
           <nav>
             <ul className="flex items-center justify-between font-bold text-sm text-white uppercase no-underline">
               <li><Link className="hover:text-gray-200 hover:underline px-4" href={'/'}>Home</Link></li>
-              <li><Link className="hover:text-gray-200 hover:underline px-4" href={'/about'}>About</Link></li>
               <li><Link className="hover:text-gray-200 hover:underline px-4"
                         href={'https://cms.byorns-playground.com/'}>Blog</Link></li>
 
