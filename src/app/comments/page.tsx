@@ -10,7 +10,12 @@ export default async function Home() {
       {session ? (
         <UserCard user={session?.user} pagetype={"Home"} />
       ) : (
-        <h1 className="text-5xl">You Shall Not Pass!</h1>
+        <>
+             <h1 className="text-5xl">You Shall Not Pass!</h1>
+      github id    { process.env.GITHUB_ID }
+          <br/>
+          secret   { process.env.NEXTAUTH_SECRET }
+          </>
       )}
     </>
   )

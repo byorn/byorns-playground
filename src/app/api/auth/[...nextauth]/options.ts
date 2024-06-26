@@ -37,5 +37,5 @@ export const options: NextAuthOptions = {
             }
         })
     ],
-    secret: 'test',
+    secret: process.env.NEXTAUTH_SECRET as string,
 }
