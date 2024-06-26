@@ -37,9 +37,6 @@ export default function Home() {
 
                         This Website is a playground project, where I spike on new tech related to NextJS/React/Node and
                         AWS.
-
-                        <br/>
-                        secret { process.env.NEXTAUTH_SECRET }
                     </p>
 
 

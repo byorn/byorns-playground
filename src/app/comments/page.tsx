@@ -12,10 +12,7 @@ export default async function Home() {
       ) : (
         <>
              <h1 className="text-5xl">You Shall Not Pass!</h1>
-      github id    { process.env.GITHUB_ID }
-          <br/>
-          secret   { process.env.NEXTAUTH_SECRET }
-          </>
+         </>
       )}
     </>
   )
