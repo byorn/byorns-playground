@@ -1,8 +1,7 @@
 import * as React from "react";
 import Link from "next/link";
-
 import Image from "next/image";
-import HomePageContent from "@/components/HomePageContent";
+import HeaderPageContents from "@/components/header-page-contents";
 
 
 export default function Home() {
@@ -11,20 +10,23 @@ export default function Home() {
      <>
         <div className="container mx-auto flex flex-wrap py-6">
 
-            <HomePageContent />
+            <HeaderPageContents />
 
             <aside className="w-full md:w-1/3 flex flex-col items-center px-3">
 
                 <div className="w-full bg-white shadow flex flex-col my-4 p-6">
                 <p className="text-xl font-semibold pb-5">About Me</p>
 
-                    <img
-                        src="https://byorns-playground.s3.ap-southeast-2.amazonaws.com/profile-pic.jpeg"
-                        width={300}
-                        height={100}
-                        alt="Picture of the author"
+                    <Image
+                        className="border-4 border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"
+                        src={'https://byorns-playground.s3.ap-southeast-2.amazonaws.com/profile-pic.jpeg'}
+                        width={200}
+                        height={200}
+                        alt={"Profile Pic"}
+                        priority={true}
                     />
-                    <p className="pb-2">
+
+                    <p className="pt-6 pb-2">
                         Full Stack Snr/Lead Engineer with commercial experience building projects using React/Typescript
                         on the front end. <br/><br/>
                         Most of my back end experience is Java/Springboot, and have some experience building Rest and

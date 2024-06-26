@@ -2,7 +2,7 @@
 
 import * as React from "react";
 
-export default function HomePageContent(){
+export default function HeaderPageContents(){
     return (<section className="w-full md:w-2/3 flex flex-col items-center">
 
             <article className="flex flex-col shadow max-w-full hover:border hover:border-blue-500 p-4" onClick={() => {
