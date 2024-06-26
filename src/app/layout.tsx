@@ -5,6 +5,7 @@ import Image from "next/image";
 import MyImage  from '../../public/byorns-playground-logo.png'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import AuthProvider from './context/AuthProvider'
 export const metadata = {
   title: 'Byorns-Playground',
   description: 'Byorns playground is all about tech !',
@@ -83,7 +84,9 @@ export default function RootLayout({
         </div>
       </header>
 
+      <AuthProvider>
       {children}
+      </AuthProvider>
 
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
