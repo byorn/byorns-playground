@@ -2,10 +2,16 @@ import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import HeaderPageContents from "@/components/header-page-contents";
+import {getServerSession} from "next-auth/next";
+import {options} from "@/app/api/auth/[...nextauth]/options";
+import {redirect} from "next/navigation";
 
 
-export default function Home() {
-
+export default async function Home() {
+    const session = await getServerSession(options)
+    if (session) {
+        redirect('/comments')
+    }
   return (
      <>
         <div className="container mx-auto flex flex-wrap py-6">

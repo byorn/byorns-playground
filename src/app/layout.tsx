@@ -6,6 +6,7 @@ import MyImage  from '../../public/byorns-playground-logo.png'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AuthProvider from './context/AuthProvider'
+import MTThemeProvider from './context/MaterialTailwindThemeProvider';
 export const metadata = {
   title: 'Byorns-Playground',
   description: 'Byorns playground is all about tech !',
@@ -17,6 +18,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+
     <html lang="en">
     <head>
       <meta charSet="utf-8" />
@@ -51,7 +53,7 @@ export default function RootLayout({
     </head>
       <body>
 
-      <nav className="w-full py-4 bg-amber-950 shadow">
+      <nav className="w-full py-4 bg-brown-900 shadow">
         <div className="w-full container mx-auto flex flex-wrap items-center justify-between">
 
           <nav>
@@ -85,7 +87,9 @@ export default function RootLayout({
       </header>
 
       <AuthProvider>
+        <MTThemeProvider>
       {children}
+        </MTThemeProvider>
       </AuthProvider>
 
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
@@ -101,5 +105,6 @@ export default function RootLayout({
       </footer>
       </body>
     </html>
+
   )
 }

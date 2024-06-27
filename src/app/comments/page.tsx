@@ -1,22 +1,30 @@
 import { options } from "../api/auth/[...nextauth]/options"
 import { getServerSession } from "next-auth/next"
 import UserCard from "../components/UserCard"
-import Link from "next/link";
-
+import Comments from "../components/Comments"
+import CommentBoxTextarea from "../components/TextArea"
 export default async function Home() {
   const session = await getServerSession(options)
 
   return (
     <>
       {session ? (
-        <UserCard user={session?.user} pagetype={"Home"} />
-      ) : (
-        <>
-             <h1 className="text-5xl">This page is protected. <br/><br/>
-               To view your details:
+          <>
+            <div className="grid grid-cols-1 gap-10 place-content-evenly">
+              <div> <UserCard user={session?.user} pagetype={"Home"}/></div>
 
-               <Link href="/api/auth/signin">Sign In</Link></h1>
-         </>
+              <div>
+                <div className="px-11 mx-9 pt-10">
+                 <Comments />
+                </div>
+              </div>
+
+            </div>
+          </>
+      ) : (
+          <>
+            <CommentBoxTextarea isLoggedIn={false}/>
+          </>
       )}
     </>
   )

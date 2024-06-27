@@ -1,5 +1,3 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
 import Navbar from '../components/Navbar'
 
 
@@ -14,14 +12,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-        <>
-            <Navbar />
           <main className="flex justify-center items-start p-6 min-h-screen">
-
-            {children}
+           {children}
           </main>
-            </>
-
-
   )
 }
