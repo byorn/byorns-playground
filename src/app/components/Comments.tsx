@@ -11,7 +11,7 @@ const Comments = () => {
     const element = <>
         <CommentBoxTextarea isLoggedIn={true} onCommented={(comment) => setComment(comment)}/>
         {/*
-        // @ts-ignore */}
+            // @ts-ignore */}
         <Typography variant="lead">
             {comment}
         </Typography>

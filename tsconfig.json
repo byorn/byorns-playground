@@ -1,5 +1,14 @@
 {
   "compilerOptions": {
+
+
+      "noImplicitAny": false,
+      "strictNullChecks": false,
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "strictPropertyInitialization": false,
+      "noImplicitThis": true,
+      "alwaysStrict": false,
     "target": "es5",
     "lib": [
       "dom",
@@ -8,7 +17,7 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
