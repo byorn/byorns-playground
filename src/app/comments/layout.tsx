@@ -14,8 +14,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-        <><Navbar />
+        <>
+            <Navbar />
           <main className="flex justify-center items-start p-6 min-h-screen">
+
             {children}
           </main>
             </>

@@ -25,7 +25,7 @@ export default function HeaderPageContents(){
             }}>
 
                 <div className="bg-white flex flex-col justify-start  mx-auto max-w-full py-6 px-12">
-                    <a href="https://cms.byorns-playground.com/projects/a-quick-overview-of-projects-i-worked-on-commercially"
+                    <a href="https://www.byorns-playground.com/comments"
                        className="text-blue-700 text-sm font-bold uppercase pb-4">
                         Authentication and Authorisation</a>
                     <a href="#" className="text-3xl font-bold hover:text-gray-700 pb-4">Next Auth  </a>
