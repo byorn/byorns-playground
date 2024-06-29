@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 export default function Page() {
 
-    // @ts-ignore
     return (
 
         <div className="container mx-auto flex flex-wrap py-6">

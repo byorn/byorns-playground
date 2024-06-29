@@ -5,7 +5,7 @@ import * as React from "react";
 export default function HeaderPageContents(){
     return (<section className="w-full md:w-2/3 flex flex-col items-center">
 
-            <article className="flex flex-col shadow max-w-full hover:border hover:border-blue-500 p-4" onClick={() => {
+            <article className="flex flex-col border-2 border-b-brown-100 shadow max-w-full hover:border  hover:border-blue-500 p-4" onClick={() => {
                 location.href = 'https://cms.byorns-playground.com/projects/a-quick-overview-of-projects-i-worked-on-commercially'
             }}>
 
@@ -20,7 +20,7 @@ export default function HeaderPageContents(){
                 </div>
             </article>
             <br/>
-            <article className="flex flex-col shadow max-w-full hover:border hover:border-blue-500 p-4" onClick={() => {
+            <article className="flex flex-col border-2 border-b-brown-100 shadow max-w-full hover:border hover:border-blue-500 p-4" onClick={() => {
                 location.href = 'https://www.byorns-playground.com/comments'
             }}>
 
@@ -34,7 +34,7 @@ export default function HeaderPageContents(){
                 </div>
             </article>
             <br/>
-            <article className="flex flex-col shadow max-w-full hover:border hover:border-blue-500 p-4" onClick={() => {
+            <article className="flex flex-col border-2 border-b-brown-100 shadow max-w-full hover:border hover:border-blue-500 p-4" onClick={() => {
                 location.href = 'https://cms.byorns-playground.com'
             }}>
 

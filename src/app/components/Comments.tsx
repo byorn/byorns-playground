@@ -8,16 +8,16 @@ const Comments = () => {
     const [comment, setComment] = useState("");
 
 
-    const element = <>
+    return( <>
         <CommentBoxTextarea isLoggedIn={true} onCommented={(comment) => setComment(comment)}/>
-        {/*
-            // @ts-ignore */}
+
         <Typography variant="lead">
             {comment}
         </Typography>
         <br/>
         <Link href={"/api/auth/signout"}>Log out</Link>
-    </>;
-    return element
+    </>
+    )
+
 }
 export default  Comments;
