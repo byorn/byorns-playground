@@ -33,7 +33,7 @@ export default async function Home() {
                     />
 
                     <p className="pt-6 pb-2">
-                        Full Stack Snr/Lead Engineer with commercial experience building projects using React/Typescript
+                        Full Stack Staff Software Engineer with commercial experience building projects using React/Typescript
                         on the front end. <br/><br/>
                         Most of my back end experience is Java/Springboot, and have some experience building Rest and
                         GraphQL APIs using Node/Express/NextJS. <br/><br/>
