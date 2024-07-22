@@ -33,10 +33,10 @@ export default async function Home() {
                     />
 
                     <p className="pt-6 pb-2">
-                        Full Stack Staff Software Engineer with commercial experience building projects using React/Typescript
+                        Seasoned Software Engineer with commercial experience building projects using React/Typescript
                         on the front end. <br/><br/>
-                        Most of my back end experience is Java/Springboot, and have some experience building Rest and
-                        GraphQL APIs using Node/Express/NextJS. <br/><br/>
+                        On the back end I have mostly used Java / Golang and a bit of Typescript.
+                        <br/><br/>
 
                         I also have exposure to automating the devops pipelines to build cloud native software utilizing
                         Kubernetes/Docker and integrating with AWS services.<br/><br/>
