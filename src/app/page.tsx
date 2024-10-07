@@ -35,9 +35,10 @@ export default async function Home() {
                     <p className="pt-6 pb-2">
                         Seasoned Software Engineer with commercial experience building projects using React/Typescript
                         on the front end. <br/><br/>
-                        On the back end I have mostly used Java / Golang and a bit of Typescript.
+                        On the back end I have mostly used Java and Spring for enterprise systems.
                         <br/><br/>
-
+                        As of recently I have been building projects using Golang and has become my pet language.
+                        <br/><br/>
                         I also have exposure to automating the devops pipelines to build cloud native software utilizing
                         Kubernetes/Docker and integrating with AWS services.<br/><br/>
 
