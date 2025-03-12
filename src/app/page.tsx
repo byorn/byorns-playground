@@ -1,5 +1,4 @@
 import * as React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import HeaderPageContents from "@/components/header-page-contents";
 import {getServerSession} from "next-auth/next";
@@ -16,12 +15,12 @@ export default async function Home() {
      <>
         <div className="container mx-auto flex flex-wrap py-6">
 
-            <HeaderPageContents />
+
 
             <aside className="w-full md:w-1/3 flex flex-col items-center px-3">
 
-                <div className="w-full border-2 border-b-brown-100 bg-white shadow flex flex-col my-4 p-6">
-                <p className="text-xl font-semibold pb-5">About Me</p>
+                <div className="w-full border-1 border-gray-400 shadow flex flex-col my-4 p-6">
+                <p className="text-xl font-semibold pb-5 text-white">About Me</p>
 
                     <Image
                         className="border-4 border-black dark:border-slate-500 drop-shadow-xl shadow-black rounded-full mx-auto mt-8"
@@ -55,6 +54,8 @@ export default async function Home() {
 
 
              </aside>
+
+            <HeaderPageContents />
 
          </div>
 
