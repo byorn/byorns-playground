@@ -6,7 +6,7 @@ import MyImage  from '../../public/byorns-playground-logo.png'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AuthProvider from './context/AuthProvider'
-import MTThemeProvider from './context/MaterialTailwindThemeProvider';
+
 export const metadata = {
   title: 'Byorns-Playground',
   description: 'Byorns playground is all about tech !',
@@ -53,7 +53,7 @@ export default function RootLayout({
     </head>
       <body>
 
-      <nav className="w-full py-4 bg-brown-900 shadow">
+      <nav className="w-full py-4 bg-gray-500  shadow">
         <div className="w-full container mx-auto flex flex-wrap items-center justify-between">
 
           <nav>
@@ -79,17 +79,17 @@ export default function RootLayout({
 
       <header className="w-full container mx-auto">
         <div className="flex flex-col items-center py-6">
-          <a className="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl" href="/">
-            <Image src={MyImage}  width={400} height={100}
-                   alt={'myimage'} className={'largeColumn'}/>
-          </a>
+          {/*<Link className="font-bold text-gray-800 uppercase hover:text-gray-700 text-5xl" href="/">*/}
+          {/*  <Image src={MyImage}  width={400} height={100}*/}
+          {/*         alt={'myimage'} className={'largeColumn'}/>*/}
+          {/*</Link>*/}
         </div>
       </header>
 
       <AuthProvider>
-        <MTThemeProvider>
+
       {children}
-        </MTThemeProvider>
+
       </AuthProvider>
 
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
