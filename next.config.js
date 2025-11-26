@@ -13,10 +13,14 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'byorns-playground.s3.ap-southeast-2.amazonaws.com',
         port: '',
-        pathname: '/byorns-playground/**',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'byorns-playground.com',
+        port: '',
       },
     ],
-    domains: ['byorns-playground.com','byorns-playground.s3.ap-southeast-2.amazonaws.com']
   }
 }
 

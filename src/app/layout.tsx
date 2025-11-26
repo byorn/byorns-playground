@@ -1,13 +1,12 @@
 import './globals.css'
 import * as React from "react";
 import Link from "next/link";
-import Image from "next/image";
-import MyImage  from '../../public/byorns-playground-logo.png'
+
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AuthProvider from './context/AuthProvider'
 
-export const metadata = {
+ const metadata = {
   title: 'Byorns-Playground',
   description: 'Byorns playground is all about tech !',
 }
