@@ -32,17 +32,15 @@ export default async function Home() {
                     />
 
                     <p className="pt-6 pb-2">
-                        Seasoned Software Engineer with commercial experience building projects using React/Typescript
+                        Seasoned Staff Software Engineer with commercial experience building projects using React/Typescript
                         on the front end. <br/><br/>
-                        On the back end I have mostly used Java and Spring for enterprise systems.
-                        <br/><br/>
-                        As of recently I have been building projects using Golang and has become my pet language.
+                        On the back end Java and Spring, Golang , NodeJS and AWS
                         <br/><br/>
                         I also have exposure to automating the devops pipelines to build cloud native software utilizing
                         Kubernetes/Docker and integrating with AWS services.<br/><br/>
 
-                        This Website is a playground project, where I spike on new tech related to NextJS/React/Node and
-                        AWS.
+                        I hope to build an AI agent so that recruiters can interact with my AI self on work experience and tech used. This is comming soon .....
+
                     </p>
 
 
