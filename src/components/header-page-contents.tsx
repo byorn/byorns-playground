@@ -18,6 +18,7 @@ export default function HeaderPageContents(){
                     <a href="#" className="text-3xl font-bold hover:text-gray-700 pb-4">Work Experience</a>
                     <a href="#" style={{width: '500px'}} className="pb-6"> A brief overview of projects I have worked
                         on</a>
+                    <a href={'/chat'} className="font-bold text-red-500 hover:text-red-400">Chat here</a>
                 </div>
             </article>
             <br/>

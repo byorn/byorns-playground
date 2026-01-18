@@ -39,7 +39,7 @@ export default async function Home() {
                         I also have exposure to automating the devops pipelines to build cloud native software utilizing
                         Kubernetes/Docker and integrating with AWS services.<br/><br/>
 
-                        I hope to build an AI agent so that recruiters can interact with my AI self on work experience and tech used. This is comming soon .....
+                        <a href={'/chat'} className="font-bold text-red-500 hover:text-red-400">Chat with my AI Assistant here</a>
 
                     </p>
 
