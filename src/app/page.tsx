@@ -32,7 +32,7 @@ export default async function Home() {
                     />
 
                     <p className="pt-6 pb-2">
-                        Seasoned Staff Software Engineer with commercial experience building projects using React/Typescript
+                        Seasoned Software Engineer with commercial experience building projects using React/Typescript
                         on the front end. <br/><br/>
                         On the back end Java and Spring, Golang , NodeJS and AWS
                         <br/><br/>
